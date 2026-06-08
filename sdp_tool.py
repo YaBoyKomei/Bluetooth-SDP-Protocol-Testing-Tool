@@ -4,7 +4,7 @@ import time
 import random
 import struct
 
-target_mac = "41:42:8A:74:E6:BC"
+target_mac = ""
 psm = 0x0001  # SDP PSM
 sock = bluetooth.BluetoothSocket(bluetooth.L2CAP)
 sock.connect((target_mac, psm))
